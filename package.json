@@ -1,0 +1,26 @@
+{
+  "name": "cms-project",
+  "version": "1.0.0",
+  "description": "CMS project using react",
+  "scripts": {
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "keywords": [
+    "react",
+    "react-dom"
+  ],
+  "author": "aiswarya sarangi",
+  "license": "ISC",
+  "dependencies": {
+    "contentful": "^10.6.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  }
+}
